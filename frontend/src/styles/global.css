@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: #313233;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.errorMessage {
+    color: red; /* Цвет текста */
+    margin-top: 10px; /* Отступ сверху */
+    text-align: center; /* Выравнивание текста по центру */
+    font-size: 14px; /* Размер шрифта */
+    font-weight: 500; /* Жирность шрифта */
+    padding: 8px; /* Внутренний отступ */
+    background-color: #ffe6e6; /* Фоновый цвет */
+    border: 1px solid #ff4d4d; /* Граница */
+    border-radius: 4px; /* Скругление углов */
+}
